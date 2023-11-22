@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;900&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f0bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#gameTitle{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0%;
+}
+
+#board{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 2px 5px 30px;
+}
+
+#dev-email{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+#dev-title{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#alert-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #f4f4f6;
+    color: #43291f;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+
+#score{
+    font-size: 15px;
+    margin: 1px auto 10px 10px;
+}
+
+#game-over{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+#restart-btn{
+    color: #f4f0bb;
+    font-weight: 700;
+    background-color: #43291f;
+    border: 1px solid #43291f;
+    border-radius: 50px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+#restart-btn:hover{
+    border: 1px solid #43291f;
+    background-color: #f4f0bb;
+    color: #43291f;
+}
